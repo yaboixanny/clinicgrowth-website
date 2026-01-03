@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[META DESCRIPTION - 150-160 characters describing the blog post content]">
+    <title>[BLOG POST TITLE] | ClinicGrowth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200;400;700&family=IBM+Plex+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Critical CSS to prevent FOUC */
+        html {
+            visibility: hidden;
+            opacity: 0;
+        }
+        html.loaded {
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 0.3s ease-out;
+        }
+        /* Blog-specific styles */
+        .blog-meta {
+            color: var(--color-dark-gray);
+            font-size: 0.95rem;
+            margin-bottom: var(--spacing-md);
+        }
+        .blog-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="grain-overlay"></div>
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <span class="logo-text">ClinicGrowth</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#process">How It Works</a></li>
+                    <li><a href="index.html#results">Results</a></li>
+                    <li><a href="index.html#contact">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" style="min-height: 50vh;">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <span class="section-label">[CATEGORY - e.g., Practice Growth Insights]</span>
+                    <h1 class="hero-title" style="font-size: clamp(2rem, 5vw, 3.5rem);">
+                        [BLOG POST TITLE - Main H1 Heading]
+                    </h1>
+                    <div class="blog-meta">
+                        Published: [MONTH YEAR] | Category: [CATEGORY NAME]
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Content Section -->
+        <section class="about-section" style="background-color: var(--color-white);">
+            <div class="container">
+                <div class="blog-content">
+                    <div class="about-text">
+                        <!-- LEAD PARAGRAPH -->
+                        <p class="lead">[Opening lead paragraph - larger text that summarizes the main point and hooks the reader. 2-3 sentences max.]</p>
+
+                        <!-- INTRODUCTION -->
+                        <p>[Introduction paragraph expanding on the lead. Sets context and establishes why this topic matters to pain management clinic owners.]</p>
+
+                        <!-- MAIN SECTION 1 -->
+                        <h2 style="font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--color-navy); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-md);">[Main Section Heading 1]</h2>
+
+                        <p><strong style="color: var(--color-navy); font-size: 1.1rem;">[Subpoint Title 1]</strong><br>
+                        [Content for first subpoint. Use strong tags for emphasis on key terms related to pain management marketing.]</p>
+
+                        <p><strong style="color: var(--color-navy); font-size: 1.1rem;">[Subpoint Title 2]</strong><br>
+                        [Content for second subpoint.]</p>
+
+                        <p><strong style="color: var(--color-navy); font-size: 1.1rem;">[Subpoint Title 3]</strong><br>
+                        [Content for third subpoint.]</p>
+
+                        <!-- MAIN SECTION 2 -->
+                        <h2 style="font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--color-navy); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-md);">[Main Section Heading 2]</h2>
+
+                        <p>[Content for this section. Use natural language and avoid over-optimization.]</p>
+
+                        <p>[Additional paragraph with more details or examples specific to pain management clinics.]</p>
+
+                        <!-- OPTIONAL: BULLETED LIST -->
+                        <ul style="margin-left: 2rem; margin-top: var(--spacing-sm); margin-bottom: var(--spacing-md); line-height: 1.8;">
+                            <li style="margin-bottom: 0.75rem;"><strong>[List item 1 title]</strong> - description</li>
+                            <li style="margin-bottom: 0.75rem;"><strong>[List item 2 title]</strong> - description</li>
+                            <li style="margin-bottom: 0.75rem;"><strong>[List item 3 title]</strong> - description</li>
+                            <li style="margin-bottom: 0.75rem;"><strong>[List item 4 title]</strong> - description</li>
+                        </ul>
+
+                        <!-- MAIN SECTION 3 -->
+                        <h2 style="font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--color-navy); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-md);">[Main Section Heading 3]</h2>
+
+                        <p>[Content that ties together previous sections and provides actionable insights.]</p>
+
+                        <p>[Additional supporting paragraph with examples or data points.]</p>
+
+                        <!-- CONCLUSION SECTION -->
+                        <h2 style="font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--color-navy); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-md);">The Bottom Line</h2>
+
+                        <p>[Conclusion paragraph that summarizes key takeaways. Include ONE internal link with keyword-rich anchor text linking to a relevant service page.]</p>
+
+                        <p>[Final paragraph reinforcing the main message and transitioning to the CTA box below.]</p>
+
+                        <!-- CTA BOX -->
+                        <div style="margin-top: var(--spacing-lg); padding: var(--spacing-md); background-color: var(--color-light-gray); border-left: 4px solid var(--color-coral);">
+                            <p style="margin: 0;"><strong>[CTA headline - direct and benefit-focused]</strong> [CTA copy with internal link to relevant service page using keyword anchor text like <a href="[SERVICE-PAGE].html" style="color: var(--color-coral); font-weight: 600; text-decoration: underline;">[keyword anchor text]</a>]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Content Section -->
+        <section class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Explore Our Services</h2>
+                </div>
+                <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                    <div class="service-card">
+                        <div class="service-icon">🎯</div>
+                        <h3>Google Ads Management</h3>
+                        <p>Launch targeted campaigns that bring qualified patients to your clinic</p>
+                        <a href="google-ads.html" class="btn btn-secondary" style="margin-top: 1rem; display: inline-block; padding: 0.75rem 1.5rem; font-size: 0.9rem;">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Meta Ads</h3>
+                        <p>Build awareness and nurture potential patients on Facebook & Instagram</p>
+                        <a href="meta-ads.html" class="btn btn-secondary" style="margin-top: 1rem; display: inline-block; padding: 0.75rem 1.5rem; font-size: 0.9rem;">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔍</div>
+                        <h3>Local SEO</h3>
+                        <p>Rank #1 for pain management searches in your area</p>
+                        <a href="seo.html" class="btn btn-secondary" style="margin-top: 1rem; display: inline-block; padding: 0.75rem 1.5rem; font-size: 0.9rem;">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Get More Patients from Google?</h2>
+                <p>Let's build a Google Ads campaign that brings qualified leads to your clinic every week</p>
+                <div class="hero-cta" style="justify-content: center;">
+                    <a href="tel:5551234567" class="btn btn-primary">Call (555) 123-4567</a>
+                    <a href="mailto:hello@clinicgrowth.com" class="btn btn-secondary">Email Us</a>
+                </div>
+                <p class="cta-tagline">Free campaign audit for pain management clinics</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-brand">
+                        <span>ClinicGrowth</span>
+                    </div>
+                    <p>Performance-driven marketing for pain management and rehab clinics</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="google-ads.html">Google Ads</a></li>
+                        <li><a href="meta-ads.html">Meta Ads</a></li>
+                        <li><a href="seo.html">Local SEO</a></li>
+                        <li><a href="index.html#services">Lead Conversion</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#process">How It Works</a></li>
+                        <li><a href="index.html#results">Case Studies</a></li>
+                        <li><a href="index.html#contact">Get Started</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <ul>
+                        <li><a href="tel:5551234567">(555) 123-4567</a></li>
+                        <li><a href="mailto:hello@clinicgrowth.com">hello@clinicgrowth.com</a></li>
+                        <li>Austin, Texas</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-text">&copy; 2026 ClinicGrowth. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
