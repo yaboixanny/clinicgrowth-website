@@ -1,3 +1,6 @@
+// Prevent FOUC - show page when ready
+document.documentElement.classList.add('loaded');
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
