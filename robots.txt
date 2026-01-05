@@ -1,0 +1,11 @@
+# robots.txt for ClinicGrowth Website
+# Updated: January 2026
+
+User-agent: *
+Allow: /
+
+# Exclude template files from indexing
+Disallow: /blog-post-template.html
+
+# Sitemap location
+Sitemap: https://yaboixanny.github.io/clinicgrowth-website/sitemap.xml
