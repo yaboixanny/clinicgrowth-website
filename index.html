@@ -6,23 +6,33 @@
     <meta name="description" content="Performance-driven marketing for pain management, physical therapy, and rehab clinics using Google Ads, Meta Ads, and SEO">
     <meta name="google-site-verification" content="nzJotP8Iy75wZalXohctuwgrLWikIMs5dF4Dg0LUVPI" />
     <title>Clinic Growth - Marketing for Pain Management Clinics</title>
+    <link rel="canonical" href="https://yaboixanny.github.io/clinicgrowth-website/">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/clinicgrowth-website/sitemap.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200;400;700&family=IBM+Plex+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Critical CSS to prevent FOUC */
-        html {
-            visibility: hidden;
-            opacity: 0;
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://yaboixanny.github.io/clinicgrowth-website/#organization",
+          "name": "ClinicGrowth",
+          "url": "https://yaboixanny.github.io/clinicgrowth-website/",
+          "description": "Performance-driven marketing for pain management, physical therapy, and rehab clinics."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://yaboixanny.github.io/clinicgrowth-website/#website",
+          "url": "https://yaboixanny.github.io/clinicgrowth-website/",
+          "name": "ClinicGrowth",
+          "publisher": { "@id": "https://yaboixanny.github.io/clinicgrowth-website/#organization" }
         }
-        html.loaded {
-            visibility: visible;
-            opacity: 1;
-            transition: opacity 0.3s ease-out;
-        }
-    </style>
+      ]
+    }
+    </script>
 </head>
 <body>
     <div class="grain-overlay"></div>
@@ -57,6 +67,9 @@
                         <span class="badge">Google Partner Certified</span>
                         <span class="badge">Meta Ads Verified</span>
                         <span class="badge">HIPAA-Aware Practices</span>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Get More Patients</a>
                     </div>
                 </div>
             </div>
@@ -165,17 +178,18 @@
                         <a href="seo.html" class="btn btn-secondary" style="margin-top: 1rem; display: inline-block; padding: 0.75rem 1.5rem; font-size: 0.9rem;">SEO for Pain Management Clinics →</a>
                     </div>
                     <div class="service-card">
-                        <div class="service-icon">⚡</div>
-                        <h3>Lead Conversion Systems</h3>
-                        <p>CRM integration, automation, and tracking setup to ensure no lead falls through the cracks</p>
+                        <div class="service-icon">✦</div>
+                        <h3>Web Design for Pain Clinics</h3>
+                        <p>Conversion-focused websites that build trust quickly and turn more visitors into appointments.</p>
                         <div class="service-features">
                             <ul>
-                                <li>CRM implementation</li>
-                                <li>Automated follow-up</li>
-                                <li>Lead scoring</li>
-                                <li>Performance dashboards</li>
+                                <li>Mobile-first design</li>
+                                <li>Treatment page strategy</li>
+                                <li>Clear booking journeys</li>
+                                <li>SEO-ready foundations</li>
                             </ul>
                         </div>
+                        <a href="website-cro.html" class="btn btn-secondary" style="margin-top: 1rem; display: inline-block; padding: 0.75rem 1.5rem; font-size: 0.9rem;">Web Design for Pain Clinics →</a>
                     </div>
                 </div>
             </div>
@@ -220,9 +234,35 @@
             <div class="container">
                 <h2>Ready to Get More Patients Every Month?</h2>
                 <p>Let's discuss how we can grow your clinic with proven, performance-driven marketing</p>
-                <div class="hero-cta" style="justify-content: center;">
-                    <a href="tel:5551234567" class="btn btn-primary">Call (555) 123-4567</a>
-                    <a href="mailto:hello@clinicgrowth.com" class="btn btn-secondary">Email Us</a>
+                <div class="contact-form cta-form">
+                    <form data-form-pending>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="text" autocomplete="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="clinic">Clinic Name</label>
+                                <input id="clinic" name="clinic" type="text" autocomplete="organization" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Work Email</label>
+                                <input id="email" name="email" type="email" autocomplete="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="website">Clinic Website</label>
+                                <input id="website" name="website" type="url" autocomplete="url" placeholder="https://">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">What would you like to improve?</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Request a Growth Plan</button>
+                        <p class="form-status" aria-live="polite"></p>
+                    </form>
                 </div>
                 <p class="cta-tagline">No contracts. Just results.</p>
                 <p class="cta-tagline">We specialize exclusively in ethical marketing for healthcare professionals</p>
@@ -259,14 +299,6 @@
                     </ul>
                 </div>
 
-                <div class="footer-section">
-                    <h4>Get In Touch</h4>
-                    <ul>
-                        <li><a href="tel:5551234567">(555) 123-4567</a></li>
-                        <li><a href="mailto:hello@clinicgrowth.com">hello@clinicgrowth.com</a></li>
-                        <li>Austin, Texas</li>
-                    </ul>
-                </div>
             </div>
 
             <div class="footer-bottom">

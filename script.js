@@ -1,6 +1,3 @@
-// Prevent FOUC - show page when ready
-document.documentElement.classList.add('loaded');
-
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -36,21 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
     animatedElements.forEach(el => observer.observe(el));
 });
 
-// Form submission handler (customize with your backend)
+// Keep the form honest until its delivery endpoint is configured.
 const contactForm = document.querySelector('.contact-form form');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
-
-        // Get form data
-        const formData = new FormData(this);
-        const data = Object.fromEntries(formData);
-
-        // Add your form submission logic here
-        console.log('Form submitted:', data);
-
-        // Show success message (customize as needed)
-        alert('Thank you for your message. We will get back to you soon!');
-        this.reset();
+        const status = this.querySelector('.form-status');
+        if (status) {
+            status.textContent = 'Form delivery will be enabled before launch.';
+        }
     });
 }
